@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    
+   <style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf1c7;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #01012c;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #1a00af;
+    border-radius: 5px;
+}
+
+.navbar ul .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #864040;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.navbar ul li:hover .dropdown {
+    display: block;
+}
+
+.navbar ul .dropdown li {
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.navbar ul .dropdown li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar ul .dropdown li a:hover {
+    background-color: #2f00af;
+    border-radius: 3px;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav,ul,li,a{
+            display: flex;
+            text-decoration: none;
+            color: #af050ecb;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        li,a{
+            padding: 5px;
+        }
+        .container {
+            width: 850px;
+            margin: auto;
+            padding: 6px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .header img {
+            width: 30px;
+            height: auto;
+        }
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            color: brown;
+        }
+        .center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 25%;
+       }
+ 
+        .module-info {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px
+            color: brown;
+        }
+        .table-container {
+            text-align: left;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th, li{
+           color: brown; 
+        }
+    </style>
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="vu-logo-with-words.ac2cb230.png" alt="Logo" class="logo-image">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#biography">Biography</a>
+                    <ul class="dropdown">
+                        <li><a href="Traphine.HTML">KIRABO DAPHINE TRAPHINE</a></li>
+                        <li><a href="Tendo.html">TENDO VIOLA</a></li>
+                        <li><a href="WHITNEY.html">MWIZA JURU WHITNEY</a></li>
+                        <li><a href="TRIALS.HTML">BUSUULWA NAJIB</a></li>
+                        <li><a href="Rose.html">NAMAROME ROSE</a></li>
+                        <li><a href="COURSEWORK.html">BAGYESERA DRAKE TAYEBWA</a></li>
+                        <li><a href="ibra.html">EYATU IBRAHIM SALIM</a></li>
+                        <li><a href="Natasha.html">MWESIGWA NATASHA</a></li>
+                        <li><a href="Okoth.html">OKOTH ANDREW</a></li>
+                        <li><a href="Nafahat.html">NAFAHAT MOHAMMED ABDLKERIM ZYADA</a></li>
+                    </ul>
+                </li>
+                <li><a href="about us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+       
+</head>
+<body>
+
+<div class="container">
+    <!-- Header Section -->
+    <div class="header">
+               <div class="title">Victoria University</div>
+        <div class="motto">We're the university of you</div>
+    </div>
+ 
+ <img src="image1.jpeg" alt="Victoria University Logo"class="center" style="border-radius: 20px;">
+ <header>
+
+</header>
+    <!-- Module and Coursework Information -->
+    <div class="module-info">
+        Internet Technology and Web Design<br>
+        <strong>Coursework: Group Project</strong>
+    </div>
+
+    <!-- Collective Biographies Section -->
+    <div class="table-container">
+      Welcome to the Collective Biographies - Group Ba
+
+
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Registration Number</th>
+        </tr>
+        <!-- Add details for each participant -->
+        </tr>
+        <td>KIRABO DAPHINE TRAPHINE</td>
+        <td>+256 740 348 509</td>
+        <td>VU-BSF-2403-0912-DAY</td>
+    </tr>
+    <tr>
+        <td>TENDO VIOLA</td>
+        <td>+256 709 883 130</td>
+        <td>VU-BIT-2403-0567-DAY</td>
+    </tr>
+<tr>
+        <td>MWIZA JURU WHITNEY</td>
+        <td>+256 789 910 523</td>
+        <td>VU-BIT-2403-0132-DAY</td>
+    </tr>
+<tr>
+        <td>BUSUULWA NAJIB</td>
+        <td>+256 759 434 512</td>
+        <td>VU-BSF-2403-1076-DAY</td>
+    </tr>
+<tr>
+        <td>NAMAROME ROSE</td>
+        <td>+256 758 237 033</td>
+        <td>VU-DIT-2403-0399-DAY</td>
+    </tr>
+<tr>
+        <td>BAGYESERA DRAKE TAYEMBWA</td>
+        <td>+256 708 804 601</td>
+        <td>VU-BIT-2403-0066-DAY</td>
+    </tr>
+
+<tr>
+        <td>EYATU IBRAHIM SALIM</td>
+        <td>+256 772 594 097</td>
+        <td>VU-BIT-2403-0457-DAY</td>
+    </tr>
+
+<tr>
+        <td>MWESIGWA NATASHA</td>
+        <td>+256 786 188 360</td>
+        <td>VU-DIT-2403-0669-DAY</td>
+    </tr>
+<tr>
+        <td>OKOTH ANDREW</td>
+        <td>+256 772 380 798</td>
+        <td>VU-DIT-2403-1273-DAY</td>
+    </tr>
+<tr>
+        <td>NAFAHAT MOHAMMED ABDLKERIM ZYADA</td>
+        <td>+256 772 380 798</td>
+        <td>VU-BCS-2407-1056-DAY</td>
+    </tr>
+        <!-- Repeat rows as needed up to 10 participants -->
+    </table>
+</div>
+</html>
+</body>
+</html>
